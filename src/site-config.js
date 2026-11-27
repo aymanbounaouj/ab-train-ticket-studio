@@ -7,7 +7,7 @@ export const siteConfig = {
   phone: "",
   whatsapp: "",
   website: "",
-  github: "https://github.com/aymanbouanouj",
+  github: "https://github.com/aymanbounaouj",
   linkedin: "https://www.linkedin.com/in/aymanbounaouj/",
   beacons: "https://beacons.ai/aymanbounaouj",
   location: "Morocco",

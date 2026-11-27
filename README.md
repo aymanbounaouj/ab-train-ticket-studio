@@ -9,9 +9,9 @@
 
 Explore routes, plan a simulated journey, choose a seat and create beautifully presented sample tickets — all through an independent, locally running web application.
 
-[**🚆 Launch Live Demo**](https://aymanbouanouj.github.io/ab-train-ticket-studio/) · [View Deployment](https://github.com/aymanbouanouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml) · [Get Started](#quick-start) · [Licensing](#license-and-ownership)
+[**🚆 Launch Live Demo**](https://aymanbounaouj.github.io/ab-train-ticket-studio/) · [View Deployment](https://github.com/aymanbounaouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml) · [Get Started](#quick-start) · [Licensing](#license-and-ownership)
 
-[![Build and deploy to GitHub Pages](https://github.com/aymanbouanouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/aymanbouanouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml)
+[![Build and deploy to GitHub Pages](https://github.com/aymanbounaouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/aymanbounaouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml)
 
 <sub>Independent demonstration · No real reservations or payments · Not affiliated with ONCF</sub>
 
@@ -73,7 +73,7 @@ Authentic screenshots captured by Playwright against a local production build us
 
 ## Try the live experience
 
-**[Open AB TRAIN →](https://aymanbouanouj.github.io/ab-train-ticket-studio/)**
+**[Open AB TRAIN →](https://aymanbounaouj.github.io/ab-train-ticket-studio/)**
 
 1. **Plan** — choose a departure station, destination and travel date.
 2. **Explore** — choose a supported *simulated* journey and class.
@@ -124,7 +124,7 @@ Built with **JavaScript (ES modules), HTML, CSS and Vite**, with QR generation a
 **Prerequisites:** Node.js **22.12+** and npm. Node.js 24 is used by the GitHub Actions workflow.
 
 ```bash
-git clone https://github.com/aymanbouanouj/ab-train-ticket-studio.git
+git clone https://github.com/aymanbounaouj/ab-train-ticket-studio.git
 cd ab-train-ticket-studio
 
 npm ci
@@ -152,7 +152,7 @@ npm run test:e2e            # Full browser test suite (local)
 
 The project has **32 unit tests** and an existing **39-test Playwright suite** covering station selection, booking behavior, keyboard navigation, translations, RTL, themes, saved tickets and export workflows.
 
-On deployment, [GitHub Actions](https://github.com/aymanbouanouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml) performs locked dependency installation, unit tests, a Vite production build and a publication-output privacy scan before deploying `dist/` to GitHub Pages.
+On deployment, [GitHub Actions](https://github.com/aymanbounaouj/ab-train-ticket-studio/actions/workflows/deploy-pages.yml) performs locked dependency installation, unit tests, a Vite production build and a publication-output privacy scan before deploying `dist/` to GitHub Pages.
 
 **Verification scope (29 October 2026):** the full **39/39 Playwright browser tests passed** in the test stage of [GitHub Actions run #40956727928](https://github.com/aymanbouanouj/ab-train-ticket-studio/actions/runs/40956727928), including booking, QR, PNG/PDF export and print-flow checks. The overall run was marked **failed only in its later screenshot Git commit step**; its browser-test stage passed. The separate [README screenshot capture run #40957260206](https://github.com/aymanbouanouj/ab-train-ticket-studio/actions/runs/40957260206) subsequently succeeded. The standard PR pipeline runs 32 unit tests, a Vite build and the publication-output check. These checks do not guarantee complete security, physical printer behavior or compatibility with every device.
 
@@ -182,7 +182,7 @@ For transparent provenance, see [publication and artwork provenance](docs/PUBLIC
 
 **Designed and developed by Ayman Bounaouj.**
 
-[GitHub profile](https://github.com/aymanbouanouj) · [Project issues and feedback](https://github.com/aymanbouanouj/ab-train-ticket-studio/issues) · [Security policy](SECURITY.md)
+[GitHub profile](https://github.com/aymanbounaouj) · [Project issues and feedback](https://github.com/aymanbounaouj/ab-train-ticket-studio/issues) · [Security policy](SECURITY.md)
 
 Found an issue or have a suggestion? Open a GitHub issue with steps to reproduce. **Do not include private passenger information, credentials or exported real-person tickets in public issues.**
 

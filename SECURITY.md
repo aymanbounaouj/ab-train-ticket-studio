@@ -4,7 +4,7 @@ AB TRAIN is an **independent railway booking simulation**. It has no real railwa
 
 ## Supported releases
 
-Security reports are welcome for the current source on the default `main` branch and the [live demonstration](https://aymanbouanouj.github.io/ab-train-ticket-studio/). Historical snapshots may not receive fixes.
+Security reports are welcome for the current source on the default `main` branch and the [live demonstration](https://aymanbounaouj.github.io/ab-train-ticket-studio/). Historical snapshots may not receive fixes.
 
 ## Reporting a vulnerability privately
 
@@ -28,4 +28,4 @@ The absence of real bookings, online payments or official train service integrat
 
 Original software: [GNU AGPL-3.0-only](LICENSE). Original author-controlled artwork and branding: [All Rights Reserved](COPYRIGHT.md). External material keeps its [own licenses and attribution](THIRD_PARTY_NOTICES.md).
 
-For ordinary feature requests and non-sensitive bugs, use [GitHub Issues](https://github.com/aymanbouanouj/ab-train-ticket-studio/issues).
+For ordinary feature requests and non-sensitive bugs, use [GitHub Issues](https://github.com/aymanbounaouj/ab-train-ticket-studio/issues).
