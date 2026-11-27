@@ -47,7 +47,7 @@ for (const language of ["en", "fr", "ar", "es"])
         "Ayman Bounaouj",
       );
       await expect(
-        page.locator('footer a[href="https://github.com/aymanbouanouj"]'),
+        page.locator('footer a[href="https://github.com/aymanbounaouj"]'),
       ).toBeVisible();
       if ((await page.locator("html").getAttribute("data-theme")) !== "light")
         await page.locator("#theme-toggle").click();
